@@ -1,11 +1,11 @@
 # Locality Projection Reserved with Matlab
  
-This Project used to re-code LPP of [XF.H@cad.zju](http://www.cad.zju.edu.cn/home/xiaofeihe/)
+This Project is used to re-code LPP of [XF.H@cad.zju](http://www.cad.zju.edu.cn/home/xiaofeihe/)
 
 author: BW.C @zjut  
 date: 2018/10/18  
 intro:   
-   * Step1. Construct W
+   * Step1. Construct W  
        W is a sparse weight matrix of given point set x(x1,x2....xn). Constructing W can be broken into two questions:
        1) construct the adjacency graph G
    
@@ -32,8 +32,7 @@ intro:
        - for question 2:  
            1) heat kernel  
                W[i][j]=e^(-(||x_i-x_j||)^2/t))  
-                >refer to:[M.belkin and P.Niyougi,"Laplacian Eigenmaps abd Spectral Techniques..."](
-                        url:http://web.cse.ohio-state.edu/~belkin.8/papers/LEM_NIPS_01.pdf)
+                >refer to:[M.belkin and P.Niyougi,"Laplacian Eigenmaps abd Spectral Techniques..."](http://web.cse.ohio-state.edu/~belkin.8/papers/LEM_NIPS_01.pdf)
 
            2) simple 0-1  
                 ```
